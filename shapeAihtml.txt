@@ -1,0 +1,18 @@
+In this html tutorial i created folder for html inside shapeai folder in the 'd' directory 
+also i installed live server from extension bar in visual studio code .
+live server auto refreshes the browser and applies the changes that is done in our html code .
+you have to right click on html page and select run using live server.
+
+block elements take up the whole space even though it doesn't require e.g., h1 , h2 , h3 ...h6 , div etc..
+inline tag take just required space e.g., bold, em , strong , mark etc...
+semantic tags helps ppl with disabilities to access by using other tools
+id ===== super unique
+name ==== semi unique
+class ==== reusable  , so it is used in css
+
+External css -> New css file  --> best to use external css it's clean , neat , readable
+ 
+Internal css -> <style></style>
+
+Inline css   -> Implementing  css directly to html tags
+

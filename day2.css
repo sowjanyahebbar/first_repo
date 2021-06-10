@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+}
+
+.parent{
+    background-color: aqua;
+   /* display: inline; div is block tag we converted it into inline*/
+}
+
+.child{
+    background-color: brown;
+    padding: 10px;
+    display: block;/* span is inline block we converted it into block tag, inline-block tag appears next to eachother with some space*/
+    margin: 30px;
+}
+
+.parent1{
+    position: relative;
+    background-color :burlywood;
+    width: 300px;
+    height: 300px;
+}
+
+.child1{
+    position: absolute;/* when we are giving position as absolute it is our responsible to where html element shd be there not browser , We need to specify where it shd be absolute like for his parent tag or browser tag so we need to specify rel tag*/
+    background-color: crimson;
+    width: 90px;
+    height: 90px;
+    /*right: 0;
+    bottom: 0;*/
+    top: 30%;
+    right: 30%;
+}
+body{
+    padding: 50px;
+}
+
+button{
+    background-color: darkgreen;
+    border: 2px solid darkgreen;
+    color: wheat;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 6px;
+    cursor: pointer;/* if we go near button it will change it's shape to hand from arrow-mark*/
+
+}
+
+button:hover{
+    background-color: tomato;
+}
+
+button:focus{
+    background-color: teal;/* When we click on it focus will be triggered*/
+}
+
+button:disabled{
+    cursor: not-allowed;
+    opacity: 0.4;
+}

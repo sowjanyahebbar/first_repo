@@ -1,0 +1,70 @@
+/* 
+When we are building a website our concentration shd be first on mobile
+Moile-First Approach
+tablet
+laptop
+PC
+
+mobile --->0 - 767px
+tablet (device width starts from) ---> 768px
+laptop ---> 1020px
+pc -----> 1400px
+*/
+
+/*body{
+    background-color: green;
+}
+
+@media(min-width:768px){
+ 
+    body{
+        background-color: blue;
+    }
+}
+
+@media(min-width:1020px) {
+    body{
+        background-color: red;
+    }
+    
+}
+
+@media(min-width:1400px){
+ 
+    body{
+        background-color: chocolate;
+    }
+}
+*/
+
+/* Flex */
+body{
+    background-color: black;
+    padding: 200px;
+}
+
+.parent{
+    background-color: white;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;                    /* flex appears in row and appears in neat*/
+    gap: 3px;                          /* to provide gap btw flexes */
+    /*justify-content: center;*/       /*start-> left , flex-end ->right , for one flex at left and one at right space-between, for even space space-evenly, starting space left flex ending space flex - space-around*/
+    /*flex-direction: column;*/       /* flex appears in column */
+    align-items: center;              /* child flex aliens at center */
+
+}
+
+
+.child{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
+
+.child2{
+    background-color:sandybrown;
+    width: 200px;
+    height: 300px;
+}

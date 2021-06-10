@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html> <!--HTML page starts with this html tag it has 2 parts head and body-->
+<head><!--Head tag contains the title tag-->
+    <title>Sowjanya-html-doc</title>
+
+</head>
+<body>
+    <!--anchor tab to go to bottom we need to use id tag-->
+    <a href="#heading4">Go to bottom</a>
+    <h1 id="heading1">Hey guys yo!!</h1>
+    <h2>Hey guys yo!!</h2>
+    <h3>Hey guys yo!!</h3>
+    <h4>Hey guys yo!!</h4>
+    <h5>Hey guys yo!!</h5>
+    <h6>Hey guys yo!!</h6>
+    <h3>various formatting</h3>
+    Normal text <strong>bold</strong> <em>italic</em> <mark>mark</mark> <u>underlined</u>
+    <h3>List tags</h3>
+    <!--ordered list -->
+    <ol>
+        <li>List 1</li>
+        <li>List 2</li>
+    </ol>
+    
+
+
+    <!--unordered list-->
+    <ul>
+        <li>list 1</li>
+        <li>list 2</li>
+    </ul>
+    <h1 id="heading2">hey this is paragraph session</h1>
+
+    <!--Paragraph-->
+    hello this is a paragraph, I'm writted without paragraph tag
+
+    <p>hello this is a paragraph, I'm writted with paragraph tag, In our browser we see same size for with/ without p tag but if we work with bootstrap , tailwind-css or anyother paragraph we can see the real changes.</p>
+    <p>using line break , <br/> it is a self closing tag</p>
+   <!-- <img src="https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/Zugpsitze_mountain.jpg?crop=0,176,3008,1654&wid=4000&hei=2200&scl=0.752"/>--><!--we can use image in 2 ways 1> by copying image location and specifying in src tag 2> by specifying its path-->
+    
+    <h3>video and audio session</h3>
+    <!--video tag-->
+    <video controls>
+        <source src=" http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4"/>
+        <source src=" http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mov" type="video/mov"/>
+    </video>
+
+    <!--audio tag-->
+    <audio controls autoplay>
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type = "audio/mp3"/>
+    </audio>
+    <h1 id="heading3">hey here is link</h1>
+    <!--Anchor tag-->
+    <a href="https://www.google.co.in/">click here to go to google</a>
+    <!--to open link in a new page use target in anchor tag-->
+    <a href="https://www.google.co.in/" target="_blank"> click here to go to google</a>
+    <!--Link for second html page-->
+
+    <h1 id="heading4">This is a second page</h1>
+    <a href = "second.html">go to second page</a>
+    <!--anchor tag which is used to go to top of this page by specifying id in href starting with '#' symbol-->
+    <!--form tag-->
+    <h3>form</h3>
+    <form>
+        <!--label tag prefer id than name-->
+        <label for="fullname">fullname</label>
+        <input type="text" placeholder="text bro" id="fullname" />
+        <label for="password">password</label>
+        <input type="password" placeholder="enter password" id="password" />
+        <label for="email">email</label>
+        <input type="email" placeholder="email" id="email"/>
+        <label for="number">number</label>
+        <input type="number" placeholder="number" id="number"/>
+        <!--for phone number-->
+        <input type="tel" placeholder="phno" />
+
+        <!-- Check box-->
+        <input type="checkbox" />
+
+        <!--radio button-->
+        <input type="radio" />
+
+        <!--button-->
+        <button>Hey i'm a button</button>
+    </form>
+    
+    
+    
+    
+    
+    <h3>to go to top</h3>
+    <a href="#heading1">go to top</a>
+</body>
+
+</html>
